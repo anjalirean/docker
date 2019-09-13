@@ -10,7 +10,7 @@ node ('agent') {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("anjali/aquaassignment")
+        app = docker.build("anjalinair/aquaassignment")
     }
 
     stage('Test image') {
